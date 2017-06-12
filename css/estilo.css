@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+.cabecera{
+	width:940px;
+	height:30px;
+	margin-top:0px;
+	margin:0px;
+	color:white;
+	padding:8px;
+	border-radius:5px;
+	text-align:left;
+	font-size:16px;
+	font-family:Arial;
+	border: solid 1px #333
+	background: grey;
+	background: linear-gradient(grey, black);
+}
+.cabecera a{
+	border: none;
+	padding: 6px;
+	text-decoration: none;
+	font-family: arial black;
+	color: grey;
+}
+.cabecera a:hover{
+	color: #FFF;
+	cursor: pointer;
+}
+#paginador a{
+	display: inline-block;
+	zoom: 2;
+	*display: inline;
+	vertical-aligne: baseline;
+	cursor: pointer;
+	text-decoration: none;
+	font: 12px Arial;
+	padding: .4em .8em .4em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	border-radius: 3px;
+	color: #d7d7d7;
+	border: solid 1px #333;
+	background: grey;
+	background: linear-gradient(grey, black);
+}
+#paginador a:hover{
+	text-decoration: none;
+	background: #000
+	background: linear-gradient(#444, #000);
+}
+#paginador u{
+	display: inline-block;
+	zoom: 2;
+	*display: inline;
+	vertical-aligne: baseline;
+	text-decoration: none;
+	font: 12px Arial;
+	padding: .4em .8em .4em;
+	border-radius: 3px;
+	color: #d7d7d7;
+	background: grey;
+	
+}
+.carrito{
+	float:right;
+}
+.vistaCarrito{
+	background-color:#EBEBEB;
+	border:1px solid #666;
+	width:390px;
+	margin:auto;
+	margin-top:20px;
+	padding-left:35px;
+	padding-bottom:20px;
+	border-radius:5px;
+	box-shadow: 10px 10px 5px grey;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.contenedor{
+	background:white;
+	width:608px;
+	height:504px;
+	margin:auto;
+	margin-top:20px;
+}
+.caja{
+	background:white;
+	float:left;
+	width:150px;
+	height:250px;
+	color:black;
+	border-radius:10px;
+	text-align:center;
+	border:1px solid #E2E2E2;
+}
+.cajaSola{
+	background:white;
+	float:left;
+	width:250px;
+	height:400px;
+	color:black;
+	border-radius:10px;
+	text-align:center;
+	border:1px solid #E2E2E2;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.cajaDes{
+	background:white;
+	float:left;
+	width:250px;
+	height:auto;
+	color:black;
+	text-align:left;
+	border-radius:10px;
+	text-align:center;
+	border:0px solid #E2E2E2;
+	padding:15px;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.boton_negro_redondo{
+	background:black;
+	color:white;
+}
